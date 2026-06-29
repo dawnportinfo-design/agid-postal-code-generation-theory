@@ -8,6 +8,8 @@ regions, and places where conventional postal codes are absent or insufficient.
 Shared compatibility schemas and vectors for AMT, ZK, Postal, and Address AI are
 maintained in
 [`agid-interoperability-contracts`](https://github.com/dawnportinfo-design/agid-interoperability-contracts).
+For grant and public-good review, read
+[`grant-readiness/adoption-readiness.md`](grant-readiness/adoption-readiness.md).
 
 The repository is intentionally a parent theory repository. The listed models
 are tightly related and should first share one vocabulary, compatibility

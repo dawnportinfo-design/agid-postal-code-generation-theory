@@ -5,6 +5,10 @@ for designing postal-code-like addressing systems for countries, territories,
 islands, enclaves, virtual towns, disaster zones, dense cities, sparse rural
 regions, and places where conventional postal codes are absent or insufficient.
 
+Shared compatibility schemas and vectors for AMT, ZK, Postal, and Address AI are
+maintained in
+[`agid-interoperability-contracts`](https://github.com/dawnportinfo-design/agid-interoperability-contracts).
+
 The repository is intentionally a parent theory repository. The listed models
 are tightly related and should first share one vocabulary, compatibility
 matrix, and executable reference model before any country-specific or

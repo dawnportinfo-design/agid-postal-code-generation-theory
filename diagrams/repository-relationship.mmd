@@ -1,0 +1,14 @@
+flowchart TD
+  AMT["address-morphism-theory"]
+  Postal["agid-postal-code-generation-theory"]
+  Country["country / region repositories"]
+  Grid["AddressGrid"]
+  ZK["zk-address-predicates"]
+  Carrier["carrier and public-sector systems"]
+
+  AMT --> Postal
+  Country --> Postal
+  Grid --> Postal
+  Postal --> ZK
+  Postal --> Carrier
+

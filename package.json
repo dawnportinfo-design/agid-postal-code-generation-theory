@@ -1,0 +1,19 @@
+{
+  "name": "agid-postal-code-generation-theory",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "description": "Postal-code generation theory, compatibility rules, and reference models for AGID.",
+  "scripts": {
+    "test": "tsx --test tests/*.test.ts",
+    "verify:publication-safety": "node scripts/verify-publication-safety.cjs",
+    "verify:taxonomy": "node scripts/verify-taxonomy.cjs",
+    "verify": "node scripts/verify-all.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

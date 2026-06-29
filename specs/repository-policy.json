@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "postal-repository-policy-v0.1",
+  "repositoryType": "parent-theory",
+  "splitPolicy": {
+    "default": "keep models in this parent repo until code, tests, data policy, and maintainers justify a split",
+    "maySplitWhen": [
+      "the model has independent implementation",
+      "the model has country-scale test vectors",
+      "the model has clear source policy",
+      "the model has maintainers outside the parent theory repo"
+    ],
+    "mustNotSplitWhen": [
+      "the repository would be empty",
+      "only a name or outline exists",
+      "there is no compatibility test with AMT or AGID",
+      "there is no publication-safety rule"
+    ]
+  },
+  "parents": [
+    "address-morphism-theory"
+  ],
+  "children": [
+    "country repositories",
+    "postal country packs",
+    "future model-specific repositories"
+  ],
+  "adjacent": [
+    "zk-address-predicates",
+    "agid-country-index",
+    "AddressGrid"
+  ]
+}
+
